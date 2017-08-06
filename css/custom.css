@@ -1,0 +1,141 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: lovelo;
+    src: url('font/lovelo.otf');
+    font-weight: bold;
+}
+.header {
+    background-color: #000000;
+    text-align: center;
+    min-width: 100%;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 10;
+
+
+}
+   
+    .htext {
+        margin-top: -10px;
+        text-align: center;
+        color: white;
+        font-family: lovelo;
+        font-size: 3em;
+    }
+    
+    .bcontainer {
+        background-image: url(assets/Lift.jpg);
+        background-size: cover;
+        margin-top: -30px;
+        margin-left: -10px;
+        margin-right: -10px;
+        min-width: 100%;
+        min-height: 100vh;
+        position: relative;
+
+    }
+    .btext {
+
+        color: white;
+        text-align: center;
+        text-shadow: 2px 2px #000000;
+        font-family: Raleway;
+        font-weight: 200;
+        font-size: 3em;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        position:absolute;
+
+    }
+    
+    .acontainer {
+        font-family: Oswald;
+        margin: 0 60px 0 60px;
+        
+    }
+    
+    .atext {
+        font-size: 2em;
+        border-bottom: solid #4515f0;
+        border-bottom-right-radius: 2px;
+        width: 100px;
+    }
+    
+    .jcontainer {
+        /* IE10+ */ 
+background-image: -ms-linear-gradient(bottom right, #4515F0 0%, #F0F0F0 150%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom right, #4515F0 0%, #F0F0F0 150%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom right, #4515F0 0%, #F0F0F0 150%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, right bottom, left top, color-stop(0, #4515F0), color-stop(150, #F0F0F0));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom right, #4515F0 0%, #F0F0F0 150%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top left, #4515F0 0%, #F0F0F0 150%);
+        padding: 50px;
+    }
+    
+    .plan {
+        border: solid #ffffff;
+        padding-bottom: 20px;
+    }
+    
+    .ptext {
+        color:white; text-align: center;
+
+    }
+    
+    /*button*/
+    
+    .button { 
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin:auto;
+    display:block;
+    font-size: 0.8em;
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+}
+
+.button:hover {
+    background-color: #cd0a95;
+    color: white;
+}
+ /*Owl*/ 
+    
+.owl-carousel .owl-item{
+    height:auto;
+    width:100%;
+}
+ 
+    footer {
+        background-color: #ccc;
+        text-align: center;
+        margin-bottom: -100px;
+    }
