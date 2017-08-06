@@ -309,7 +309,8 @@ background-image: linear-gradient(to top left, #4515F0 0%, #F0F0F0 150%);
     
     ul {
         list-style: none;
-        text-align: center;
+        text-align: left;
+        float: left;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
